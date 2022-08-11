@@ -4,6 +4,8 @@ import './App.css'
 import { Nabvar } from './components/Navbar/Navbar'
 import {Routes,Route} from "react-router-dom"
 import { Assignments } from './components/Assignments/Assignments'
+import { Home } from './components/Home/Home'
+import { Lectures } from './components/Lectures/Letures'
 function App() {
  
 
@@ -11,8 +13,9 @@ function App() {
     <div >
       <Nabvar/>
      <Routes>
-      <Route path='/' element={<Ho}/>
+      <Route path='/' element={<Home/>}/>
       <Route path='/assignments' element={<Assignments/>}/>
+      <Route path='/lectures'element={<Lectures/>}/>
      </Routes>
     </div>
   )
