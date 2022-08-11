@@ -10,8 +10,8 @@ export const Nabvar=()=>{
                 <Link to="/courses"> <p>Courses</p></Link>
                 <Link to="/quizzes"> <p>Quizzes</p></Link>
                 <Link to="/tickets">  <p>Tickets</p></Link>
-                <Link to="discussion"> <p>Discussion</p></Link>
-               <Link to="signIn"> <p>Sign In</p></Link> 
+                <Link to="/"> <p>Register</p></Link>
+               <Link to="/login"> <p>Sign In</p></Link> 
             </div>
         
     )
