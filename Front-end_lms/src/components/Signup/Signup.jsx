@@ -27,7 +27,7 @@ export const Signup = () => {
   };
 
   useEffect(() => {
-    if (data.token) navigate("/login");
+    if (data.token) navigate("/");
   }, [data]);
 
   // const loginpage=()=>{
@@ -36,7 +36,7 @@ export const Signup = () => {
   return (
     <div>
       <div className="loginbtn">
-       <Link to="/login"><button>Go to Login</button></Link>
+       <Link to="/"><button>Go to Login</button></Link>
       </div>
       <div className="signup">
         <div className="form_container">
