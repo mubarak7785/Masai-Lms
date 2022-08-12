@@ -35,15 +35,15 @@ export const Signup = () => {
   // }
   return (
     <div>
-      <div className="loginbtn">
-       <Link to="/"><button>Go to Login</button></Link>
-      </div>
       <div className="signup">
-        <div className="form_container">
+      
+        <div className="form_container2">
+        <h2>SignUp Here</h2>
           <form id="signup_form" onSubmit={senddata}>
             <label id="lab">First Your First Name</label>
             <br />
             <input
+              placeholder="firstname"
               className="signinp"
               type="text"
               id="name"
@@ -55,6 +55,7 @@ export const Signup = () => {
             <label id="lab">Last Your Last Name</label>
             <br />
             <input
+              placeholder="Lastname"
               className="signinp"
               type="text"
               id="sir_name"
@@ -66,6 +67,7 @@ export const Signup = () => {
             <label id="lab">Enter Your Email Id</label>
             <br />
             <input
+              placeholder="Email address"
               className="signinp"
               type="text"
               id="email"
@@ -77,6 +79,7 @@ export const Signup = () => {
             <label id="lab">Enter Your New Password</label>
             <br />
             <input
+              placeholder="Password"
               className="signinp"
               type="text"
               id="password"
@@ -88,6 +91,7 @@ export const Signup = () => {
             <label id="lab">Enter Your Mobile Number</label>
             <br />
             <input
+              placeholder="Number"
               className="signinp"
               type="text"
               id="mobile_number"
@@ -96,7 +100,9 @@ export const Signup = () => {
             />
             <br />
             <br />
-            <input id="subbtn" type="submit" />
+            <h4>Already have an account?<Link to="/">Login Here</Link></h4>
+            <br />
+            <input id="subbtn1" type="submit" />
           </form>
         </div>
       </div>
