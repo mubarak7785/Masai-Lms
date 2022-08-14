@@ -1,0 +1,111 @@
+.today{
+    border: 1px solid lightgray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 90%;
+    height: 65px;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+.today>:nth-child(1){
+    /* border: 1px solid burlywood; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.today>:nth-child(1)>p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: calibri;
+}
+
+.today>:nth-child(2){
+    /* border: 1px solid burlywood; */
+    width: 22%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.today>:nth-child(2)>button{
+    font-size: 14px;
+    padding: 8px 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.today>:nth-child(2)>button:hover{
+    cursor: pointer;
+    background-color: purple;
+}
+.today-content{
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    border-radius: 5px;
+}
+.today-content>.box{
+    width: 12%;
+    height: 100px;
+    margin: 2%;
+    margin-right: 0%;
+    border: 1px solid navy;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.today-content>.box>h3{
+    color: white;
+    font-weight: bold;
+    margin: 3%;  
+    font-family: calibri;
+}
+.details{
+    width: 30%;
+    height: 100px;
+    margin: 2%;
+    /* border: 1px solid navy; */
+}
+.details>:nth-child(1){
+    font-size: 23px;
+    color: blue;
+    font-family: calibri;
+    font-weight: bold;
+    margin-bottom: -2%;
+    margin-top: 3%;
+}
+.details>p>span{
+    font-weight: bold;
+}
+.details>:nth-child(2){
+    font-size: 18px;
+   
+    font-family: calibri;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+.details>button{
+    background-color: green;
+    padding: 2px 5px;
+    color: white;
+    font-weight: bold;
+}
+.today-content>p{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 19px;
+    margin-left: 45%;
+    margin-top: 2%;
+    height: 40%;
+    text-decoration: underline;
+}

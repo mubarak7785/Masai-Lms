@@ -40,6 +40,7 @@ export const Login = () => {
 
   return (
     <div className="login">
+      <img src="https://sso.masaischool.com/brand_dark.svg" alt="" />
       <div className="form_container1">
         <h2>Login Here</h2>
         <form onSubmit={senddata}>
