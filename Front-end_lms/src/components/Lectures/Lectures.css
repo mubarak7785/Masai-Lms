@@ -1,0 +1,70 @@
+.lec{
+    border: 1px solid lightgray;
+    height: 70px;
+    display: flex;
+    width: 94%;
+    padding-left: 6%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    align-items: center;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; */
+}
+
+.lec>p{
+    font-size: 25px;
+    font-family: calibri;
+    font-weight: bold;
+}
+.lec-content{
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 115px;
+    margin: auto;
+    display: flex;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    align-content: center;
+    justify-content: space-between;
+    
+
+}
+.lec-sub{
+    width: 80%;
+    height: 80%;
+   margin: 0.75%;
+    /* border: 1px solid blue; */
+    
+}
+.lec-content>button{
+    display: flex;
+    height: 30px;
+    margin-top: 3%;
+    margin-right: 4%;
+    padding: 5px 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.lec-sub>p:nth-child(1){
+    font-size: 23px;
+    font-family: calibri;
+    color: blue;
+    font-weight: bold;
+    margin-top: 1.8%;
+    margin-bottom: 0%;
+}
+.lec-sub>p:nth-child(2){
+    font-size: 18px;
+    font-family: calibri;
+    margin-top: 0.8%;
+}
+.lec-sub>p:nth-child(2)>span{
+    font-weight: bold;
+}
+.lec-content:hover{
+    cursor: pointer;
+    background-color: rgb(233, 237, 240);
+}

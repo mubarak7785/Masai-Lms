@@ -96,9 +96,10 @@
 }
 .details>button{
     background-color: green;
-    padding: 2px 5px;
+    padding: 2px 15px;
     color: white;
     font-weight: bold;
+    border-radius: 5px;
 }
 .today-content>p{
     font-family: Arial, Helvetica, sans-serif;
@@ -108,4 +109,9 @@
     margin-top: 2%;
     height: 40%;
     text-decoration: underline;
+}
+
+.today-content:hover{
+    cursor: pointer;
+    background-color: rgb(233, 237, 240);
 }
