@@ -8,6 +8,12 @@ app.use(express.json())
 
 const connect=require("./configs/db")
 
+const assignmentController=require("./controllers/assignment.controller")
+const lectureController=require("./controllers/lecture.controller")
+
+app.use("/assignments",assignmentController)
+app.use("/lectures",lectureController)
+
 app.listen(port,async function (req,res){
     try{
         await connect();
