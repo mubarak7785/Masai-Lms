@@ -21,6 +21,15 @@ router.post("", async function (req, res) {
       return res.status(500).send(err.message);
     }
   });
+
+  router.delete("", async function (req, res) {
+    try {
+      const data= await Lecture.deleteMany()
+      return res.status(201).send(data);
+    } catch (err) {
+      return res.status(500).send(err.message);
+    }
+  });
   
   module.exports = router;
   
