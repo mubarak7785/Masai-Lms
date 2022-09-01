@@ -1,9 +1,10 @@
 const express = require ("express")
 const cors = require("cors")
+const dotenv=require("dotenv")
 
 const app = express()
 app.use(cors())
-const port=process.env.PORT || 2664
+
 app.use(express.json())
 
 const connect=require("./configs/db")
@@ -18,11 +19,10 @@ const lectureController=require("./controllers/lecture.controller")
 app.use("/assignments",assignmentController)
 app.use("/lectures",lectureController)
 
-app.listen(port,async function (req,res){
-    try{
-        await connect();
-        console.log ("Listening Port 2664")
-    }catch(err){
-        console.log(err.message)
-    }
+dotenv.config({path:"./configs/config.env"})
+
+connect()
+app.listen((process.env.PORT || 2664),function (){
+    console.log("Express server listening on port %d in %s mode",this.address().port,app.settings.env)
+
 })
