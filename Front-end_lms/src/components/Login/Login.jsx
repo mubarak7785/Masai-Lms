@@ -28,7 +28,10 @@ export const Login = () => {
       .then((Response) => Response.json())
       .then((data) => {
         dispatch(loginsuccess(data));
-        if (data.token) navigate("/home");
+        if (data.token){
+          alert("Logged in successfully!");
+          navigate("/home");
+        }
         else {
           alert("enter correct details");
         }

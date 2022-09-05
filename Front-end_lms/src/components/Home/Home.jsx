@@ -59,7 +59,9 @@ export const Home = () => {
 
             </div>
             <div className="details">
-                <p>Scrum 10.08.2022</p>
+                <p>Scrum 10
+                  
+                  .08.2022</p>
                 <p> <span>Nrupul</span> Starting at <span>9:00 AM</span></p>
                 <button>live</button>
             </div>
