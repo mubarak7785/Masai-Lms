@@ -38,16 +38,19 @@ export const Signup = () => {
   // }
   return (
     <div>
-       <img src="https://sso.masaischool.com/brand_dark.svg" alt="" />
+     
       <div className="signup">
       
         <div className="form_container2">
-        <h2>SignUp Here</h2>
+          <div className="img-div">
+          <img src="https://sso.masaischool.com/brand_dark.svg" alt="" />
+          </div>
+        <h2>SignUp</h2>
           <form id="signup_form" onSubmit={senddata}>
-            <label id="lab">First Your First Name</label>
+            <label id="lab">First Name</label>
             <br />
             <input
-              placeholder="firstname"
+              placeholder="First Name"
               className="signinp"
               type="text"
               id="name"
@@ -56,10 +59,10 @@ export const Signup = () => {
             />
             <br />
             <br />
-            <label id="lab">Last Your Last Name</label>
+            <label id="lab">Last Name</label>
             <br />
             <input
-              placeholder="Lastname"
+              placeholder="Last Name"
               className="signinp"
               type="text"
               id="sir_name"
@@ -68,10 +71,10 @@ export const Signup = () => {
             />
             <br />
             <br />
-            <label id="lab">Enter Your Email Id</label>
+            <label id="lab">Email Id</label>
             <br />
             <input
-              placeholder="Email address"
+              placeholder="Email"
               className="signinp"
               type="text"
               id="email"
@@ -80,19 +83,19 @@ export const Signup = () => {
             />
             <br />
             <br />
-            <label id="lab">Enter Your New Password</label>
+            <label id="lab">Password</label>
             <br />
             <input
               placeholder="Password"
               className="signinp"
-              type="text"
+              type="password"
               id="password"
               onChange={handlechange}
               required
             />
             <br />
             <br />
-            <label id="lab">Enter Your Mobile Number</label>
+            <label id="lab">Mobile Number</label>
             <br />
             <input
               placeholder="Number"

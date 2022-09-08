@@ -43,11 +43,15 @@ export const Login = () => {
 
   return (
     <div className="login">
-      <img src="https://sso.masaischool.com/brand_dark.svg" alt="" />
+     
       <div className="form_container1">
-        <h2>Login Here</h2>
+       
+      <div className="img-div">
+          <img src="https://sso.masaischool.com/brand_dark.svg" alt="" />
+          </div>
+          <h2>Login</h2>
         <form onSubmit={senddata}>
-          <label className="label" id="lab">Email address</label>
+          <label className="label" id="lab">Email</label>
           <br />
           <br />
           <input type="text" placeholder="Email address" id="email" onChange={handlechange} />
@@ -57,10 +61,11 @@ export const Login = () => {
           <label id="lab">Password</label>
           <br />
           <br />
-          <input type="text" placeholder="Password" id="password" onChange={handlechange} />
+          <input type="password" placeholder="Password" id="password" onChange={handlechange} />
           <br />
           <br />
           <h4>Don't Have an account?<Link to="/signup">Register Here</Link></h4>
+          <br />
           <input id="subbtn" type="submit" />
         </form>
       </div>
