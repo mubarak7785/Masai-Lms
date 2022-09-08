@@ -73,7 +73,7 @@
 .lec-sub>p>span>button{
     margin-left: 15px;
     padding: 3px 15px;
-    background-color: green;
+    background-color: rgb(1, 148, 1);
     color: white;
     border: none;
     border-radius: 5px;

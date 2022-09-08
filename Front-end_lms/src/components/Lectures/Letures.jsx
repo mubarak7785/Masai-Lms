@@ -31,20 +31,6 @@ export const Lectures=()=>{
                 </div>
                 )
             })}
-            <div className="lec-content">
-                <div className="lec-sub">
-                    <p>scrum 09.08.2022  <span><button>live</button></span> </p>
-                    <p><span>Nrupul</span>  Scheduled <span>Scrum</span>  at <span>9 Aug, 22 </span> - <span> 9:00 am</span></p>
-                </div>
-                <button>Absent</button>
-            </div>
-            <div className="lec-content">
-                <div className="lec-sub">
-                    <p>Weekly connect call  <span><button>live</button></span> </p>
-                    <p><span>Yogesh</span>  Scheduled <span>Scrum</span>  at <span>7 Aug, 22 </span> - <span> 12:00 pm</span></p>
-                </div>
-                <button>Absent</button>
-            </div>
         </div>
     )
 }

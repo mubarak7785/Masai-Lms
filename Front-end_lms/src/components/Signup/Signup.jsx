@@ -28,6 +28,7 @@ export const Signup = () => {
         alert("You have already signed up! Please login")
       }
   };
+  fetch("https://nikedataapi.herokuapp.com/register").then(data=>console.log(data))
  
   useEffect(() => {
     if (data.token) navigate("/");
