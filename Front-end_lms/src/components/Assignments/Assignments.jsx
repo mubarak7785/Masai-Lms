@@ -8,8 +8,9 @@ export const Assignments=()=>{
 
     useEffect(()=>{
         fetch("https://lmsofmasai.herokuapp.com/assignments").then(res=>res.json()).then(data=>setData(data))
+       
     },[])
-
+    console.log(data)
 
 
     return(

@@ -1,0 +1,74 @@
+.main-admin-div{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 2%;
+    padding: 30px;
+}
+
+h2{
+    margin-left: 2%;
+    font-family: calibri;
+    text-decoration: underline;
+}
+
+.title-div{
+    width: 100%;
+    height: 60px;
+    background-origin: 1px solid blue;
+}
+.title-div>input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+.title-div>p{
+    margin-top: 0%;
+    margin-bottom: 0.5%;
+}
+.mid-div{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    gap: 5%;
+    margin-top: 2%;
+
+}
+.mid-div>div{
+    width: 30%;
+    height: 30px;
+}
+.mid-div>div>p{
+    margin-top: 0%;
+    margin-bottom: 0.5%;
+}
+.mid-div>div>select{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.mid-div>div>input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.main-admin-div>button{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 1%;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.main-admin-div>button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

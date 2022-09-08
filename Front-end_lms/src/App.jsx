@@ -7,6 +7,7 @@ import { Routes ,Route} from 'react-router-dom'
 import { Login } from './components/Login/Login'
 import { Lectures } from './components/Lectures/Letures'
 import { Assignments } from './components/Assignments/Assignments'
+import { Admin } from './components/Admin/Admin'
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path='/home' element={<Home/>}/>
       <Route path="/assignments" element={<Assignments/>}/>
       <Route path="/lectures" element={<Lectures/>}/>
+      <Route path="/admin" element={<Admin/>}/>
      </Routes>
     
     </div>
