@@ -73,6 +73,22 @@ export const Home = () => {
         </div>
         <p>Details</p>
       </div>
+      <div className="today-content">
+        <div className="box">
+          <h3>9:00 AM</h3>
+          <h3>SCRUM</h3>
+        </div>
+        <div className="details">
+          <p>Scrum 14.08.2022</p>
+          <p>
+            {" "}
+            <span>Albert</span> Starting at <span>9:00 AM</span>
+          </p>
+          <button>live</button>
+        </div>
+        <p>Details</p>
+      </div>
     </div>
+    
   );
 };
